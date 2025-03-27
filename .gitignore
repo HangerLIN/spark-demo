@@ -34,6 +34,7 @@ Thumbs.db
 # Node.js
 node_modules/
 /frontend/spark-demo-ui/node_modules/
+frontend/spark-demo-ui/node_modules/.cache/
 frontend/spark-demo-ui/build/
 npm-debug.log
 yarn-error.log
