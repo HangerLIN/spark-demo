@@ -29,4 +29,15 @@ spring_boot_log.log
 Thumbs.db
 
 # Maven
-.mvn/wrapper/maven-wrapper.jar 
+.mvn/wrapper/maven-wrapper.jar
+
+# Node.js
+node_modules/
+/frontend/spark-demo-ui/node_modules/
+frontend/spark-demo-ui/build/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnp
+.pnp.js
+.npm 
