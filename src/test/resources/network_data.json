@@ -1,0 +1,16 @@
+{
+    "users": [
+        {"id": 1, "name": "张三"},
+        {"id": 2, "name": "李四"},
+        {"id": 3, "name": "王五"},
+        {"id": 4, "name": "赵六"},
+        {"id": 5, "name": "钱七"}
+    ],
+    "relationships": [
+        {"sourceId": 1, "targetId": 2, "relationship": "朋友"},
+        {"sourceId": 2, "targetId": 3, "relationship": "同事"},
+        {"sourceId": 1, "targetId": 3, "relationship": "同学"},
+        {"sourceId": 3, "targetId": 4, "relationship": "朋友"},
+        {"sourceId": 4, "targetId": 5, "relationship": "同事"}
+    ]
+} 

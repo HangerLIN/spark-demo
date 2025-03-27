@@ -1,0 +1,45 @@
+{
+  "name": "spark-demo-ui",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:8088",
+  "description": "Spark大数据分析示例前端",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "spark",
+    "react",
+    "big-data"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "ajv-keywords": "^5.1.0",
+    "antd": "^4.24.14",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.3.3",
+    "d3": "^7.9.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
